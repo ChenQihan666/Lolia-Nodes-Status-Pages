@@ -23,15 +23,15 @@ const workerConfig: WorkerConfig = {
       name: '阿里云北京-1',
       method: 'TCP_PING',
       target: 'cn-bj-3.qwq.fan:10000',
-      timeout: 5000
+      timeout: 5000,
     },
     {
       id: '6',
       name: '腾讯云北京-1',
       method: 'TCP_PING',
       target: 'cn-bj-1.qwq.fan:7000',
-      timeout: 5000
-    }
+      timeout: 5000,
+    },
   ],
   // [Optional] Notification settings
   notification: {
