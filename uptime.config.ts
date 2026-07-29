@@ -32,6 +32,20 @@ const workerConfig: WorkerConfig = {
       target: 'cn-bj-1.qwq.fan:7000',
       timeout: 5000,
     },
+    {
+      id: '40',
+      name: '腾讯云北京-2',
+      method: 'TCP_PING',
+      target: 'cn-bj-4.qwq.fan:30000',
+      timeout: 5000,
+    },
+    {
+      id: '29',
+      name: '百度云北京-1',
+      method: 'TCP_PING',
+      target: 'cn-bj-2.qwq.fan:20000',
+      timeout: 5000,
+    },
   ],
   // [Optional] Notification settings
   notification: {
