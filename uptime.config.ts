@@ -91,7 +91,8 @@ const workerConfig: WorkerConfig = {
 
 // const maintenances: MaintenanceConfig[] = []
 
-const maintenances: MaintenanceConfig[] = [];
+const maintenances: MaintenanceConfig[] = [LoliaFRP 各节点及官网 API 等正在短时间内遭受频繁的 DDOS 攻击，对此如果节点出现不稳定现象敬请谅解
+请各位非必要请勿随意泄露节点 IP，网站类应用可使用 CDN 服务器防护，感谢大家的支持与理解];
 
 // Don't edit this line
 export { maintenances, pageConfig, workerConfig }
