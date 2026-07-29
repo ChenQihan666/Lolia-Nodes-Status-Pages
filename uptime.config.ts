@@ -290,11 +290,11 @@ const workerConfig: WorkerConfig = {
 const maintenances: MaintenanceConfig[] = [
   {
     // [Optional] Monitor IDs to be affected by this maintenance
-    monitors: ['29'],
+    monitors: ['29','13','17','34','22','36','35','7','9'],
     // [Optional] default to "Scheduled Maintenance" if not specified
     title: '温馨提示',
     // Description of the maintenance, will be shown at status page
-    body: 'LoliaFRP 各节点及官网 API 等正在短时间内遭受频繁的 DDOS 攻击，对此如果节点出现不稳定现象敬请谅解，请各位非必要请勿随意泄露节点 IP，网站类应用可使用 CDN 服务器防护，感谢大家的支持与理解',
+    body: 'LoliaFRP 各节点及官网 API 等正在短时间内遭受频繁的 DDOS 攻击，对此如果节点出现不稳定现象敬请谅解，请各位非必要请勿随意泄露节点 IP，网站类应用可使用 CDN 服务器防护，另外有些节点因流量耗尽或其他原因无法使用，感谢大家的支持与理解！',
     // Start time of the maintenance, in UNIX timestamp or ISO 8601 format
     start: '2026-07-28T00:00:00+08:00',
     // [Optional] end time of the maintenance, in UNIX timestamp or ISO 8601 format
