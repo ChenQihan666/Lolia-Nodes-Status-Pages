@@ -160,7 +160,7 @@ const workerConfig: WorkerConfig = {
       method: 'TCP_PING',
       target: 'hk-2.qwq.fan:7000',
       timeout: 5000,
-      checkProxy: 'worker://apac-se'
+      checkProxy: 'worker://apac-ne'
     },
     {
       id: '44',
