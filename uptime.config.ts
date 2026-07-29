@@ -7,7 +7,7 @@ import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
 
 const pageConfig: PageConfig = {
   // Title for your status page
-  title: "LoliaFRP Nodes Status",
+  title: "LoliaFRP节点外部监控",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://docs.lolia.link/', label: '查看文档' },
