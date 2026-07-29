@@ -117,6 +117,13 @@ const workerConfig: WorkerConfig = {
       timeout: 5000,
     },
     {
+      id: '9',
+      name: '宁波电信-1',
+      method: 'TCP_PING',
+      target: 'cn-nb-1.qwq.fan:7000',
+      timeout: 5000,
+    },
+    {
       id: '22',
       name: '[主力]西安电信-1',
       method: 'TCP_PING',
