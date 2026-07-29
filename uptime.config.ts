@@ -10,9 +10,8 @@ const pageConfig: PageConfig = {
   title: "LoliaFRP Nodes Status",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://github.com/Lolia-FRP', label: 'GitHub' },
-    { link: 'https://blog.lyc8503.net/', label: 'Blog' },
-    { link: 'mailto:me@lyc8503.net', label: 'Email Me', highlight: true },
+    { link: 'https://docs.lolia.link/', label: '查看文档' },
+    { link: 'https://lolia.link', label: '返回官网', highlight: true },
   ],
 }
 
