@@ -168,7 +168,7 @@ const workerConfig: WorkerConfig = {
       method: 'TCP_PING',
       target: 'hk-3.qwq.fan:20001',
       timeout: 5000,
-      checkProxy: 'worker://apac-se'
+      checkProxy: 'worker://apac-ne'
     },
     {
       id: '30',
@@ -176,7 +176,7 @@ const workerConfig: WorkerConfig = {
       method: 'TCP_PING',
       target: 'hk-4.qwq.fan:10000',
       timeout: 5000,
-      checkProxy: 'worker://apac-se'
+      checkProxy: 'worker://apac-ne'
     },
     {
       id: '34',
@@ -184,7 +184,7 @@ const workerConfig: WorkerConfig = {
       method: 'TCP_PING',
       target: 'hk-5.qwq.fan:40000',
       timeout: 5000,
-      checkProxy: 'worker://apac-se'
+      checkProxy: 'worker://apac-ne'
     },
     {
       id: '35',
@@ -192,7 +192,7 @@ const workerConfig: WorkerConfig = {
       method: 'TCP_PING',
       target: 'hk-6.qwq.fan:17000',
       timeout: 5000,
-      checkProxy: 'worker://apac-se'
+      checkProxy: 'worker://apac-ne'
     },
     {
       id: '45',
@@ -200,7 +200,7 @@ const workerConfig: WorkerConfig = {
       method: 'TCP_PING',
       target: 'hk-7.qwq.fan:7000',
       timeout: 5000,
-      checkProxy: 'worker://apac-se'
+      checkProxy: 'worker://apac-ne'
     },
     {
       id: '47',
@@ -208,7 +208,7 @@ const workerConfig: WorkerConfig = {
       method: 'TCP_PING',
       target: 'hk-8.qwq.fan:25566',
       timeout: 5000,
-      checkProxy: 'worker://apac-se'
+      checkProxy: 'worker://apac-ne'
     },
     {
       id: '13',
