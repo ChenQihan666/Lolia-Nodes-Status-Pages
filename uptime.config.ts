@@ -322,7 +322,7 @@ const workerConfig: WorkerConfig = {
 const maintenances: MaintenanceConfig[] = [
   {
     // [Optional] Monitor IDs to be affected by this maintenance
-    monitors: ['29','13','17','34','22','36','35','7','9'],
+    monitors: ['30','13','17','34','22','36','35','7','9'],
     // [Optional] default to "Scheduled Maintenance" if not specified
     title: '温馨提示',
     // Description of the maintenance, will be shown at status page
