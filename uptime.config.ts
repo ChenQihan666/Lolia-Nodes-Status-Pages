@@ -23,7 +23,7 @@ const workerConfig: WorkerConfig = {
       name: '阿里云北京-1',
       method: 'TCP_PING',
       target: 'cn-bj-3.qwq.fan:10000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -31,7 +31,7 @@ const workerConfig: WorkerConfig = {
       name: '腾讯云北京-1',
       method: 'TCP_PING',
       target: 'cn-bj-1.qwq.fan:7000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -39,7 +39,7 @@ const workerConfig: WorkerConfig = {
       name: '腾讯云北京-2',
       method: 'TCP_PING',
       target: 'cn-bj-4.qwq.fan:30000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -47,7 +47,7 @@ const workerConfig: WorkerConfig = {
       name: '百度云北京-1',
       method: 'TCP_PING',
       target: 'cn-bj-2.qwq.fan:20000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -55,7 +55,7 @@ const workerConfig: WorkerConfig = {
       name: '[主力]上海移动-1',
       method: 'TCP_PING',
       target: 'speedtest.sh-2.qwq.fan:10721',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -63,7 +63,7 @@ const workerConfig: WorkerConfig = {
       name: '上海阿里云-1',
       method: 'TCP_PING',
       target: 'cn-sh-1.qwq.fan:7000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -71,7 +71,7 @@ const workerConfig: WorkerConfig = {
       name: '阿里云杭州-1',
       method: 'TCP_PING',
       target: 'cn-hz-1.qwq.fan:10000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -79,7 +79,7 @@ const workerConfig: WorkerConfig = {
       name: '青岛联通-1',
       method: 'TCP_PING',
       target: 'cn-qd-1.qwq.fan:12000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -87,7 +87,7 @@ const workerConfig: WorkerConfig = {
       name: '阿里云武汉-1',
       method: 'TCP_PING',
       target: 'cn-wh-1.qwq.fan:7000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -95,7 +95,7 @@ const workerConfig: WorkerConfig = {
       name: '阿里云成都-1',
       method: 'TCP_PING',
       target: 'cn-cd-1.qwq.fan:37000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -103,7 +103,7 @@ const workerConfig: WorkerConfig = {
       name: '成都电信-1',
       method: 'TCP_PING',
       target: 'cn-cd-2.qwq.fan:40000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -111,7 +111,7 @@ const workerConfig: WorkerConfig = {
       name: '阿里云广州-1',
       method: 'TCP_PING',
       target: 'cn-gz-1.qwq.fan:7000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -119,7 +119,7 @@ const workerConfig: WorkerConfig = {
       name: '绍兴电信-1',
       method: 'TCP_PING',
       target: 'cn-sx-1.qwq.fan:20142',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -127,7 +127,7 @@ const workerConfig: WorkerConfig = {
       name: '宁波联通-1',
       method: 'TCP_PING',
       target: 'cn-nb-4.qwq.fan:20000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -135,7 +135,7 @@ const workerConfig: WorkerConfig = {
       name: '宁波电信-1',
       method: 'TCP_PING',
       target: 'cn-nb-1.qwq.fan:7000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -143,7 +143,7 @@ const workerConfig: WorkerConfig = {
       name: '[主力]西安电信-1',
       method: 'TCP_PING',
       target: 'speedtest.cn-xa-1.qwq.fan:7000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -151,7 +151,7 @@ const workerConfig: WorkerConfig = {
       name: '德阳电信-1',
       method: 'TCP_PING',
       target: 'cn-dy-1.qwq.fan:7000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -159,7 +159,7 @@ const workerConfig: WorkerConfig = {
       name: '中国香港-2',
       method: 'TCP_PING',
       target: 'hk-2.qwq.fan:7000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -167,7 +167,7 @@ const workerConfig: WorkerConfig = {
       name: '中国香港-3',
       method: 'TCP_PING',
       target: 'hk-3.qwq.fan:20001',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -175,7 +175,7 @@ const workerConfig: WorkerConfig = {
       name: '中国香港-4',
       method: 'TCP_PING',
       target: 'hk-4.qwq.fan:10000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -183,7 +183,7 @@ const workerConfig: WorkerConfig = {
       name: '中国香港-5',
       method: 'TCP_PING',
       target: 'hk-5.qwq.fan:40000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -191,7 +191,7 @@ const workerConfig: WorkerConfig = {
       name: '中国香港-6',
       method: 'TCP_PING',
       target: 'hk-6.qwq.fan:17000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -199,7 +199,7 @@ const workerConfig: WorkerConfig = {
       name: '中国香港-7',
       method: 'TCP_PING',
       target: 'hk-7.qwq.fan:7000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -207,7 +207,7 @@ const workerConfig: WorkerConfig = {
       name: '中国香港-8',
       method: 'TCP_PING',
       target: 'hk-8.qwq.fan:25566',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -215,7 +215,7 @@ const workerConfig: WorkerConfig = {
       name: '中国台湾-1',
       method: 'TCP_PING',
       target: 'tw-1.qwq.fan:60000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -223,7 +223,7 @@ const workerConfig: WorkerConfig = {
       name: '日本-1',
       method: 'TCP_PING',
       target: 'jp-1.qwq.fan:7000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -231,7 +231,7 @@ const workerConfig: WorkerConfig = {
       name: '日本-2',
       method: 'TCP_PING',
       target: 'jp-2.qwq.fan:7000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -239,7 +239,7 @@ const workerConfig: WorkerConfig = {
       name: '日本-4',
       method: 'TCP_PING',
       target: 'jp-4.qwq.fan:30001',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://apac-ne'
     },
     {
@@ -247,7 +247,7 @@ const workerConfig: WorkerConfig = {
       name: '美国-1',
       method: 'TCP_PING',
       target: 'us-1.qwq.fan:37000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://enam'
     },
     {
@@ -255,7 +255,7 @@ const workerConfig: WorkerConfig = {
       name: '美国-2',
       method: 'TCP_PING',
       target: 'us-2.qwq.fan:60001',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://enam'
     },
     {
@@ -263,7 +263,7 @@ const workerConfig: WorkerConfig = {
       name: '美国-4',
       method: 'TCP_PING',
       target: 'us-4.qwq.fan:10000',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://enam'
     },
     {
@@ -271,7 +271,7 @@ const workerConfig: WorkerConfig = {
       name: '意大利-1',
       method: 'TCP_PING',
       target: 'it-1.qwq.fan:11452',
-      timeout: 5000,
+      timeout: 8000,
       checkProxy: 'worker://weur'
     },
   ],
