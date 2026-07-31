@@ -322,7 +322,7 @@ const workerConfig: WorkerConfig = {
 const maintenances: MaintenanceConfig[] = [
   {
     // [Optional] Monitor IDs to be affected by this maintenance
-    monitors: ['30','13','17','34','22','36','35','7','9'],
+    monitors: ['50','13','17','34','44','36','7','9'],
     // [Optional] default to "Scheduled Maintenance" if not specified
     title: '温馨提示',
     // Description of the maintenance, will be shown at status page
@@ -331,7 +331,7 @@ const maintenances: MaintenanceConfig[] = [
     start: '2026-07-28T00:00:00+08:00',
     // [Optional] end time of the maintenance, in UNIX timestamp or ISO 8601 format
     // if not specified, the maintenance will be considered as on-going
-    end: '2026-08-10T00:00:00+08:00',
+    end: '2026-09-10T00:00:00+08:00',
     // [Optional] color of the maintenance alert at status page, default to "yellow"
     color: 'blue',
   },
