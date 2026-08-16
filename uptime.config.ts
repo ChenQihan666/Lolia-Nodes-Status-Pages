@@ -115,6 +115,14 @@ const workerConfig: WorkerConfig = {
       checkProxy: 'worker://apac-ne'
     },
     {
+      id: '51',
+      name: '火山引擎广州-1',
+      method: 'TCP_PING',
+      target: 'cn-gz-1.qwq.fan:7000',
+      timeout: 8000,
+      checkProxy: 'worker://apac-ne'
+    },
+    {
       id: '28',
       name: '绍兴电信-1',
       method: 'TCP_PING',
@@ -274,6 +282,14 @@ const workerConfig: WorkerConfig = {
       timeout: 8000,
       checkProxy: 'worker://weur'
     },
+    {
+      id: '52',
+      name: '德国-1',
+      method: 'TCP_PING',
+      target: 'de-1.qwq.fan:40000',
+      timeout: 8000,
+      checkProxy: 'worker://weur'
+    },
   ],
   // [Optional] Notification settings
   notification: {
@@ -322,18 +338,18 @@ const workerConfig: WorkerConfig = {
 const maintenances: MaintenanceConfig[] = [
   {
     // [Optional] Monitor IDs to be affected by this maintenance
-    monitors: ['50','13','17','34','44','36','7','9'],
+    monitors: ['44'],
     // [Optional] default to "Scheduled Maintenance" if not specified
     title: '温馨提示',
     // Description of the maintenance, will be shown at status page
     body: 'LoliaFRP 各节点及官网 API 等正在短时间内遭受频繁的 DDOS 攻击，对此如果节点出现不稳定现象敬请谅解，请各位非必要请勿随意泄露节点 IP，网站类应用可使用 CDN 服务器防护，另外有些节点因流量耗尽或其他原因无法使用，感谢大家的支持与理解！',
     // Start time of the maintenance, in UNIX timestamp or ISO 8601 format
-    start: '2026-07-28T00:00:00+08:00',
+    start: '2026-07-30T00:00:00+08:00',
     // [Optional] end time of the maintenance, in UNIX timestamp or ISO 8601 format
     // if not specified, the maintenance will be considered as on-going
-    end: '2026-09-10T00:00:00+08:00',
+    end: '2077-07-30T00:00:00+08:00',
     // [Optional] color of the maintenance alert at status page, default to "yellow"
-    color: 'blue',
+    color: 'pink',
   },
 ]
 
